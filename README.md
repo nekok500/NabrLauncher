@@ -1,3 +1,9 @@
+ # originalsource
+
+- [HeliosLauncher](https://github.com/dscalzi/HeliosLauncher)
+- [NumaLauncher](https://github.com/TeamKun/NumaLauncher)
+
+
 <p align="center"><img src="./app/assets/images/SealCircle.svg" width="150px" height="150px" alt="aventium softworks"></p>
 
 <h1 align="center">Helios Launcher</h1>
