@@ -1,13 +1,13 @@
 {
-  "name": "numalauncher",
+  "name": "nabrlauncher",
   "version": "2.0.2",
-  "productName": "NumaLauncher",
-  "description": "沼でも使えるMinecraftランチャー",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/), Kamesuta (https://github.com/Kamesuta/)",
+  "productName": "NabrLauncher",
+  "description": "かんたんに使えるMinecraftランチャー",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/), Kamesuta (https://github.com/Kamesuta/), Yuki0720(Nabr) (https://github.com/Yuki0720/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/TeamKun/NumaLauncher",
+  "homepage": "https://github.com/TeamNabr/NabrLauncher",
   "bugs": {
-    "url": "https://github.com/TeamKun/NumaLauncher/issues"
+    "url": "https://github.com/TeamNabr/NabrLauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -36,7 +36,7 @@
     "fs-extra": "^9.0.1",
     "github-syntax-dark": "^0.5.0",
     "jquery": "^3.6.0",
-    "request": "^2.88.2",
+    "request": "^2.65.0",
     "semver": "^7.3.4",
     "skinview3d": "^2.0.0-beta.1",
     "slick-carousel": "^1.8.1",
@@ -52,6 +52,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TeamKun/NumaLauncher.git"
+    "url": "git+https://github.com/TeamNabr/NabrLauncher.git"
   }
 }

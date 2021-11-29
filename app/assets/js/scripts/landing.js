@@ -706,7 +706,7 @@ async function dlAsync(login = true){
                 const gameStateChange = function(data){
                     data = data.trim()
                     if(SERVER_JOINED_REGEX.test(data)){
-                        DiscordWrapper.updateDetails('50人クラフトに参加中!')
+                        DiscordWrapper.updateDetails('サーバーに参加中！')
                     } else if(GAME_JOINED_REGEX.test(data)){
                         DiscordWrapper.updateDetails('マインクラフトをプレイ中!')
                     }
@@ -767,7 +767,7 @@ async function dlAsync(login = true){
                     // 一定時間経ったらLoading表示を解除
                     setTimeout(() => { toggleLaunchArea(false) }, 10000)
 
-                    setLaunchDetails('準備OK。参加勢集合！')
+                    setLaunchDetails('準備OK。サーバーに集合！')
 
                     // Init Discord Hook
                     const distro = DistroManager.getDistribution()
