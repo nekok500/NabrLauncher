@@ -13,7 +13,7 @@ const url = require('url')
 const crypto = require('crypto')
 
 const redirectUriPrefix = 'https://login.microsoftonline.com/common/oauth2/nativeclient?'
-const clientID = 'ce9c7ade-7cee-4c4c-83bc-0c0edafdcaea'
+const clientID = 'c554e66c-81a3-4572-929e-b5b6e7b66413'
 
 // Setup auto updater.
 function initAutoUpdater(event, data) {

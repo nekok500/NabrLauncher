@@ -4,7 +4,7 @@ require('dotenv').config()
 const request = require('request')
 
 // Constants
-const clientId = 'ce9c7ade-7cee-4c4c-83bc-0c0edafdcaea'
+const clientId = 'c554e66c-81a3-4572-929e-b5b6e7b66413'
 
 const tokenUri = 'https://login.microsoftonline.com/consumers/oauth2/v2.0/token'
 const authXBLUri = 'https://user.auth.xboxlive.com/user/authenticate'
