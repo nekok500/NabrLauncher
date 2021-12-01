@@ -114,9 +114,7 @@ jobs:
         name: Upload Release File - MacOS1
         if: matrix.os == 'macos-latest'
         with:
-          files: dist/latest-mac.yml
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          files: dist/Nabrlauncher-setup-${{ steps.get_version.outputs.version-without-v }}.{dmg,dmg.blockmap}
+          files: dist/*
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           release-tag: ${{ steps.get_version.outputs.version }}          
 
@@ -124,9 +122,7 @@ jobs:
         name: Upload Release File - Windows1
         if: matrix.os == 'windows-latest'
         with:
-          files: dist/latest.yml
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          files: dist/Nabrlauncher-setup-${{ steps.get_version.outputs.version-without-v }}.{exe,exe.blockmap}
+          files: dist/*
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           release-tag: ${{ steps.get_version.outputs.version }}          
 
@@ -134,9 +130,7 @@ jobs:
         name: Upload Release File - Ubuntu1
         if: matrix.os == 'ubuntu-latest'
         with:
-          files: dist/latest-linux.yml
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          files: dist/Nabrlauncher-setup-${{ steps.get_version.outputs.version-without-v }}.AppImage
+          files: dist/*
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           release-tag: ${{ steps.get_version.outputs.version }}          
 
