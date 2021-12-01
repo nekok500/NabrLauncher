@@ -8,31 +8,31 @@
                 "invalidValue": "* 無効な値",
                 "requiredValue": "* 必須項目",
                 "userMigrated": {
-                    "title": "ログイン失敗:<br>無効な認証",
-                    "desc": "今のMinecraftアカウントはプレイヤー名ではなくメールアドレスを使う必要があります。"
+                    "title": "ログイン失敗:<br>無効な認証 <br>エラーコード:1001",
+                    "desc": "詳しくは<a href=\"https://github.com/TeamNabr/NabrLauncher/wiki/%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0\">トラブルシューティング</a>を見てね"
                 },
                 "invalidCredentials": {
-                    "title": "ログイン失敗:<br>無効な認証",
-                    "desc": "メールアドレスかパスワードが間違っています。もう一度やり直してください。"
+                    "title": "ログイン失敗:<br>情報に間違いがある <br>エラーコード:1002",
+                    "desc": "詳しくは<a href=\"https://github.com/TeamNabr/NabrLauncher/wiki/%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0\">トラブルシューティング</a>を見てね"
                 },
                 "rateLimit": {
-                    "title": "ログイン失敗:<br>間違えすぎ",
-                    "desc": "パスワードを間違えすぎたため今はログインできません。時間を置いてやり直してください。"
+                    "title": "ログイン失敗:<br>間違えすぎ<br>エラーコード:1003",
+                    "desc": "パスワードを間違えすぎたため今はログインできません。時間を置いてやり直してください。<br>詳しくは<a href=\"https://github.com/TeamNabr/NabrLauncher/wiki/%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0\">トラブルシューティング</a>を見てね"
                 },
                 "noInternet": {
-                    "title": "ログイン失敗:<br>ネットに繋いでください",
+                    "title": "ログイン失敗:<br>ネットに繋いでください<br>エラーコード:1004",
                     "desc": "ログインにはインターネットが必要です。インターネットに接続してもう一度やり直してください。"
                 },
                 "authDown": {
-                    "title": "ログイン失敗:<br>Minecraft認証鯖が死んでいる",
-                    "desc": "Mojang の認証鯖が落ちている可能性があります。少し待ってやり直してみてください。"
+                    "title": "ログイン失敗:<br>Minecraft認証鯖が死んでいる<br>エラーコード:1005",
+                    "desc": "Mojang の認証鯖が落ちている可能性があります。少し待ってやり直してみてください。<br> 詳しくは<a href=\"https://github.com/TeamNabr/NabrLauncher/wiki/%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%B7%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0\">トラブルシューティング</a>を見てね"
                 },
                 "notPaid": {
                     "title": "ログイン失敗:<br>Minecraft未購入",
                     "desc": "Minecraft未購入のアカウントでログインしようとしています。<br><a href=\"https://minecraft.net/\">Minecraft.net</a> でMinecraftを買ってください。"
                 },
                 "unknown": {
-                    "title": "ログイン失敗:<br>なんかよくわからないエラー"
+                    "title": "ログイン失敗:<br>エラーの原因がわかりません。<br>エラーコード:1005"
                 }
             },
             "login": "ログイン",
