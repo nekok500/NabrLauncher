@@ -21,7 +21,7 @@ builder.build({
         appId: 'nabrlauncher',
         productName: 'NabrLauncher',
         artifactName: '${productName}-setup-${version}.${ext}',
-        copyright: 'Copyright © 2018-2020 Daniel Scalzi, 2020 Kamesuta, 2021 Yuki0720',
+        copyright: 'Copyright © 2018-2020 Daniel Scalzi, 2021 Yuki0720',
         directories: {
             buildResources: 'build',
             output: 'dist'

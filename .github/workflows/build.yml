@@ -114,25 +114,34 @@ jobs:
         name: Upload Release File - MacOS1
         if: matrix.os == 'macos-latest'
         with:
-          files: dist/latest-mac.yml;dist/Nabrlauncher-setup-${{ steps.get_version.outputs.version-without-v }}.{dmg,dmg.blockmap}
+          files: dist/latest-mac.yml
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          release-tag: ${{ steps.get_version.outputs.version }}
+        with:
+          files: dist/Nabrlauncher-setup-${{ steps.get_version.outputs.version-without-v }}.{dmg,dmg.blockmap}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          release-tag: ${{ steps.get_version.outputs.version }}          
 
       - uses: AButler/upload-release-assets@v2.0
         name: Upload Release File - Windows1
         if: matrix.os == 'windows-latest'
         with:
-          files: dist/latest.yml;dist/Nabrlauncher-setup-${{ steps.get_version.outputs.version-without-v }}.{exe,exe.blockmap}
+          files: dist/latest.yml
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          release-tag: ${{ steps.get_version.outputs.version }}
+        with:
+          files: dist/Nabrlauncher-setup-${{ steps.get_version.outputs.version-without-v }}.{exe,exe.blockmap}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          release-tag: ${{ steps.get_version.outputs.version }}          
 
       - uses: AButler/upload-release-assets@v2.0
         name: Upload Release File - Ubuntu1
         if: matrix.os == 'ubuntu-latest'
         with:
-          files: dist/latest-linux.yml;dist/Nabrlauncher-setup-${{ steps.get_version.outputs.version-without-v }}.AppImage
+          files: dist/latest-linux.yml
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          release-tag: ${{ steps.get_version.outputs.version }}
+        with:
+          files: dist/Nabrlauncher-setup-${{ steps.get_version.outputs.version-without-v }}.AppImage
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          release-tag: ${{ steps.get_version.outputs.version }}          
 
   notification:
     runs-on: ubuntu-latest
