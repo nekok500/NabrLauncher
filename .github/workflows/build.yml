@@ -116,7 +116,6 @@ jobs:
         with:
           files: dist/latest-mac.yml
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-        with:
           files: dist/Nabrlauncher-setup-${{ steps.get_version.outputs.version-without-v }}.{dmg,dmg.blockmap}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           release-tag: ${{ steps.get_version.outputs.version }}          
@@ -127,7 +126,6 @@ jobs:
         with:
           files: dist/latest.yml
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-        with:
           files: dist/Nabrlauncher-setup-${{ steps.get_version.outputs.version-without-v }}.{exe,exe.blockmap}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           release-tag: ${{ steps.get_version.outputs.version }}          
@@ -138,7 +136,6 @@ jobs:
         with:
           files: dist/latest-linux.yml
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-        with:
           files: dist/Nabrlauncher-setup-${{ steps.get_version.outputs.version-without-v }}.AppImage
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           release-tag: ${{ steps.get_version.outputs.version }}          
